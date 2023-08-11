@@ -96,6 +96,24 @@ class _LogInState extends State<LogIn> {
               ),
             ),
           ),
+          Positioned(
+            top: 520,
+            right: 0,
+            left: 0,
+            child: Center(
+              child: Center(
+                child: Container(
+                  height: 90,
+                  width: 300,
+                  child: Text(
+                    '오늘 제주도의 날씨는 맑음입니다.',
+                    style: TextStyle(fontSize:20, color:Colors.black),
+
+                  ),
+                ),
+              ),
+            ),
+          ),
         ],
       )
     );
