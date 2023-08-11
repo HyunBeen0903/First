@@ -106,7 +106,7 @@ class _LogInState extends State<LogIn> {
                   height: 90,
                   width: 300,
                   child: Text(
-                    '오늘 제주도의 날씨는 맑음입니다.',
+                    '오늘 제주도의 날씨는 맑음인척하지만 흐림입니다.',
                     style: TextStyle(fontSize:20, color:Colors.black),
 
                   ),
